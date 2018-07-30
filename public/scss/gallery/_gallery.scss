@@ -1,0 +1,33 @@
+/*Gallery*/
+
+.garllery{
+  max-width: 1900px;
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 25% 50% 25%;
+  background-color: #05132F;
+  padding: 0;
+  margin: 0;
+  .img-cnt{
+    height: 100%;
+    
+      img{
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform 250ms linear;
+        -moz-transition: transform 250ms linear;
+        -o-transition: transform 250ms linear;
+        transition: transform 250ms linear;
+
+      }:hover{
+        -ms-transform: scale(1.05); /* IE 9 */
+        -webkit-transform: scale(1.05); /* Safari */
+        transform: scale(1.05);
+        box-shadow: 3px 3px 7px #000;
+    }
+  } 
+}
+
+
+

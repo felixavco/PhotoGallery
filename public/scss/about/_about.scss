@@ -1,0 +1,22 @@
+.about{
+  max-width: 1900px;
+  padding: 3rem 0;
+  margin: 1.5rem auto auto auto;
+  .about-wrapper {
+    padding: 2rem;
+    .img-cont {
+      width: 100%;
+      height: auto;
+      img {
+        border-radius: 0.5rem;
+        box-shadow: 3px 3px 5px $text-color;
+      }
+    }
+    h3 {
+      color: $text-color;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}

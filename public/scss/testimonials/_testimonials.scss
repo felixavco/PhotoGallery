@@ -1,0 +1,46 @@
+.testimonials {
+  h3 {
+    color: $text-color;
+    margin-top: 5rem;
+  }
+  .slides {
+    background: transparent;
+    .caption {
+      .testimonial {
+        color: goldenrod;
+        text-shadow: 0px 0px 7px #ffff00; 
+        p {
+          color: $text-color; 
+          font-size: 1.2rem;
+          text-shadow: none;
+        }
+        .testimonial-img {
+          margin: 1rem auto;
+          width: 100px;
+          height: 100px;
+          border-radius: 100%;
+          overflow: hidden;
+          box-shadow: 2px 2px 5px #333;
+        }
+        img {
+          width: 100%;
+        }
+        h5 {
+          color: $text-color; 
+          font-size: 1.9rem;
+          text-shadow: none;
+        }
+      } 
+    }
+  }
+ 
+}
+
+.indicators {
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333;
+}

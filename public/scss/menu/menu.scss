@@ -1,0 +1,6 @@
+.menu-btn {
+  background: $text-color;
+  &:hover{
+    background: darken($text-color, 5%);
+  }
+}
