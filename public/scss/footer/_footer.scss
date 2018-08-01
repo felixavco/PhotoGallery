@@ -1,0 +1,115 @@
+footer {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: $text-color;
+  
+  .social-cont {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    margin: auto;
+    
+    .social-icon {
+      background: snow;
+      border-radius: 100%;
+      width: 45px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 2px 2px 3px #000;
+      font-size: 1.5rem;
+      color: snow;
+      transition: all 250ms linear;
+      -webkit-transition: all 250ms linear;
+      -o-transition: all 250ms linear;
+      -moz-transition: all 250ms linear;
+      &:hover{
+        -o-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+      }
+    }
+
+    .facebook {
+      background: #3b5998;
+      &:hover {
+        background: snow;
+        color: #3b5998
+      }
+    }
+    .youtube {
+      background: #ff0000;
+      &:hover {
+        background: snow;
+        color: #ff0000
+      }
+    }
+    .twitter {
+      background: #1da1f2;
+      &:hover {
+        background: snow;
+        color: #1da1f2
+      }
+    }
+    .instagram {
+      background: #c13584;
+      &:hover {
+        background: snow;
+        color: #c13584
+      }
+    }
+  }
+
+  .tm {
+    padding: 2rem 0;
+    color: snow;
+  }
+
+  hr {
+    border: 1px solid rgba(147, 147, 147, 0.5);
+  }
+
+  .signature {
+    h6, a{
+      color: rgba(147, 147, 147, 0.5);
+    }
+  }
+
+}
+
+@media (max-width: 536px){
+  footer {
+    .social-cont {
+      width: 100%;      
+    }
+  
+    .tm {
+      padding: 1rem 0;
+      h5 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px){
+  footer {
+    .tm {
+      h5 {
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+@media (max-width: 410px){
+  footer {
+    .tm {
+      h5 {
+        font-size: 1em;
+      }
+    }
+  }
+}

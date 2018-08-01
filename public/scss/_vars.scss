@@ -22,3 +22,10 @@ $text-shadow: 1px 1px 1px rgba(32, 32, 32, 0.7);
 body{
   overflow-x:hidden; 
 }
+
+@mixin flex($fd, $jc, $ai){
+  display: flex;
+  flex-direction: $fd;
+  justify-content: $jc;
+  align-items: $ai;
+}
