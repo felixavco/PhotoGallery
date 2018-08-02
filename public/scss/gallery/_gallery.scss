@@ -1,14 +1,13 @@
 /*Gallery*/
 
-.garllery{
+.gallery{
   max-width: 1900px;
   display: grid;
   grid-gap: 0;
   grid-template-columns: 25% 50% 25%;
   grid-template-rows: 25% 50% 25%;
-  background-color: #05132F;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   .img-cnt{
     height: 100%;
     

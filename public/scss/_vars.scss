@@ -21,6 +21,7 @@ $text-shadow: 1px 1px 1px rgba(32, 32, 32, 0.7);
 
 body{
   overflow-x:hidden; 
+  background: snow;
 }
 
 @mixin flex($fd, $jc, $ai){

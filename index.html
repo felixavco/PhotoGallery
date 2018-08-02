@@ -11,63 +11,64 @@
   <!--  Styles  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="/demo1/public/css/styles.css">
+  <link rel="stylesheet" href="/public/css/animate.min.css">
+  <link rel="stylesheet" href="/public/css/styles.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
 </head>
 
 
 <body>
   <header>
-    <a class="btn-floating btn-large waves-effect waves-light menu-btn">
+    <a class="btn-floating btn-large waves-effect waves-light menu-btn animated pulse">
       <i class="material-icons">menu</i>
     </a>
     <nav id="menu">
       <ul>
         <li>
-          <a href="">Home</a>
+          <a data-scroll href="#home">Home</a>
         </li>
         <li>
-          <a href="">Gallery</a>
+          <a data-scroll href="#gallery">Gallery</a>
         </li>
         <li>
-          <a href="">About Me</a>
+          <a data-scroll href="#about">About Me</a>
         </li>
         <li>
-          <a href="">Services</a>
+          <a data-scroll href="#services">Services</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a data-scroll href="#contact-form">Contact</a>
         </li>
         <li>
-          <a href="">Testimonials</a>
+          <a data-scroll href="#testimonials">Testimonials</a>
         </li>
       </ul>
     </nav>
   </header>
 
-  <section class="parallax-container">
+  <section id="home" class="parallax-container">
     <div class="parallax">
-      <img src="/demo1/public/img/bg.jpg">
+      <img src="/public/img/bg.jpg">
     </div>
 
     <div class="container header">
-      <div class="avatar">
-        <img src="/demo1/public/img/avatar.jpg" alt="avatar image">
+      <div class="avatar animated zoomIn">
+        <img src="/public/img/avatar.jpg" alt="avatar image">
       </div>
-      <h4>Maggie Simpson</h4>
+      <h4 class="animated zoomIn">Maggie Simpson</h4>
 
       <div class="contact-info">
         <div class="contact-e  row">
 
           <div class="col m6 s12">
-            <h6 class="valign-wrapper">
+            <h6 class="valign-wrapper animated zoomIn">
               <i class="material-icons hide-on-med-and-down">email</i>
               &nbsp; msimpson@creativeclould.com
             </h6>
           </div>
 
           <div class="col m6 s12">
-            <h6 class="valign-wrapper">
+            <h6 class="valign-wrapper animated zoomIn">
               <i class="material-icons hide-on-med-and-down">local_phone</i>
               &nbsp; +503 7855-3545
             </h6>
@@ -78,19 +79,19 @@
 
       <div class="social-cont">
 
-        <div class="social-icon">
+        <div class="social-icon animated bounceInUp">
           <i class="fab fa-facebook-f"></i>
         </div>
 
-        <div class="social-icon">
+        <div class="social-icon animated bounceInUp">
           <i class="fab fa-youtube"></i>
         </div>
 
-        <div class="social-icon">
+        <div class="social-icon animated bounceInUp">
           <i class="fab fa-twitter"></i>
         </div>
 
-        <div class="social-icon">
+        <div class="social-icon animated bounceInUp">
           <i class="fab fa-instagram"></i>
         </div>
 
@@ -99,55 +100,55 @@
     </div>
   </section>
 
-  <section class="garllery">
+  <section id="gallery" class="gallery">
 
-    <div class="img-cnt">
-      <img src="/demo1/public/img/1.jpg" alt="image 1">
+    <div class="img-cnt animated slideInUp">
+      <img src="/public/img/1.jpg" alt="image 1">
 
     </div>
 
-    <div class="img-cnt">
-      <img src="/demo1/public/img/2.jpg" alt="image 2">
+    <div class="img-cnt animated slideInUp">
+      <img src="/public/img/2.jpg" alt="image 2">
     </div>
 
 
 
-    <div class="img-cnt">
-      <img src="/demo1/public/img/3.jpg" alt="image 3">
+    <div class="img-cnt animated slideInUp">
+      <img src="/public/img/3.jpg" alt="image 3">
     </div>
 
 
     <div class="img-cnt">
-      <img src="/demo1/public/img/4.jpg" alt="image 4">
+      <img src="/public/img/4.jpg" alt="image 4">
     </div>
 
     <div class="img-cnt">
-      <img src="/demo1/public/img/5.jpg" alt="image 5">
+      <img src="/public/img/5.jpg" alt="image 5">
     </div>
 
     <div class="img-cnt">
-      <img src="/demo1/public/img/6.jpg" alt="image 6">
+      <img src="/public/img/6.jpg" alt="image 6">
     </div>
 
     <div class="img-cnt">
-      <img src="/demo1/public/img/7.jpg" alt="image 7">
+      <img src="/public/img/7.jpg" alt="image 7">
     </div>
 
     <div class="img-cnt">
-      <img src="/demo1/public/img/8.jpg" alt="image 8">
+      <img src="/public/img/8.jpg" alt="image 8">
     </div>
 
     <div class="img-cnt">
-      <img src="/demo1/public/img/9.jpg" alt="image 9">
+      <img src="/public/img/9.jpg" alt="image 9">
     </div>
 
   </section>
 
-  <section class="about">
+  <section id="about" class="about">
     <div class="row container about-wrapper box-shadow">
       <div class="col l12 xl5">
         <div class="img-cont">
-          <img class="responsive-img" src="/demo1/public/img/about.jpg" alt="About me">
+          <img class="responsive-img" src="/public/img/about.jpg" alt="About me">
         </div>
       </div>
       <div class="col l12 xl7">
@@ -162,14 +163,14 @@
     </div>
   </section>
 
-  <section class="services">
+  <section id="services" class="services">
     <div class="row">
       <h3 class="center-align">Services</h3>
 
       <div class="col s12 xl4">
         <div class="service box-shadow">
           <div class="img-cont">
-            <img src="/demo1/public/img/wedding.jpeg" alt="weddings" class="responsive-img">
+            <img src="/public/img/wedding.jpeg" alt="weddings" class="responsive-img">
           </div>
           <h5>Weddings</h5>
           <p>
@@ -182,7 +183,7 @@
       <div class="col s12 xl4">
         <div class="service box-shadow">
           <div class="img-cont">
-            <img src="/demo1/public/img/commercial.jpeg" alt="commercial" class="responsive-img">
+            <img src="/public/img/commercial.jpeg" alt="commercial" class="responsive-img">
           </div>
           <h5>Commercial</h5>
           <p>
@@ -195,7 +196,7 @@
       <div class="col s12 xl4">
         <div class="service box-shadow">
           <div class="img-cont">
-            <img src="/demo1/public/img/family.jpeg" alt="family" class="responsive-img">
+            <img src="/public/img/family.jpeg" alt="family" class="responsive-img">
           </div>
           <h5>Family</h5>
           <p>
@@ -208,7 +209,7 @@
     </div>
   </section>
 
-  <section class="contact-form">
+  <section id="contact-form" class="contact-form">
     <form class="container box-shadow">
       <h3 class="center-align">Contact Me</h3>
 
@@ -253,7 +254,7 @@
     </form>
   </section>
 
-  <section class="testimonials">
+  <section id="testimonials" class="testimonials">
     <div class="container">
       <div class="slider">
         <h3 class="center-align">Testimonials</h3>
@@ -274,7 +275,7 @@
                   <i class="material-icons">star</i>
                 </div>
                 <div class="testimonial-img">
-                  <img src="/demo1/public/img/p1.jpeg" alt="Contact Person">
+                  <img src="/public/img/p1.jpeg" alt="Contact Person">
                 </div>
                 <h5>John Doe</h5>
               </div>
@@ -297,7 +298,7 @@
                   <i class="material-icons">star_half</i>
                 </div>
                 <div class="testimonial-img">
-                  <img src="/demo1/public/img/p2.jpeg" alt="Contact Person">
+                  <img src="/public/img/p2.jpeg" alt="Contact Person">
                 </div>
                 <h5>Tania Green</h5>
               </div>
@@ -320,7 +321,7 @@
                   <i class="material-icons">star_border</i>
                 </div>
                 <div class="testimonial-img">
-                  <img src="/demo1/public/img/p3.jpeg" alt="Contact Person">
+                  <img src="/public/img/p3.jpeg" alt="Contact Person">
                 </div>
                 <h5>Wendy Smith</h5>
               </div>
@@ -343,7 +344,7 @@
                   <i class="material-icons">star</i>
                 </div>
                 <div class="testimonial-img">
-                  <img src="/demo1/public/img/p4.jpeg" alt="Contact Person">
+                  <img src="/public/img/p4.jpeg" alt="Contact Person">
                 </div>
                 <h5>Alejandro Garcia</h5>
               </div>
@@ -397,9 +398,10 @@
 
 
   <!-- Scripts -->
+  <script src="/public/js/smooth-scroll.polyfills.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <script src="/demo1/public/js/index.js"></script>
+  <script src="/public/js/index.js"></script>
 </body>
 
 </html>
