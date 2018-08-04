@@ -1,11 +1,8 @@
 $(document).ready(() => {
-
   // Scroll Effect
   const scroll = new SmoothScroll('a[href*="#"]');
 
-
-
-
+  //Materialize inicializations
   $('.parallax').parallax();
   $('.slider').slider();
 
@@ -31,7 +28,6 @@ $(document).ready(() => {
     })
 
     menuBtn.hover(() => menuBtn.removeClass('pulse'));
-  /* menu effect */
   
   document.querySelector('#year').innerHTML = new Date().getFullYear();
 
@@ -39,9 +35,18 @@ $(document).ready(() => {
   const gal1 = $('.gal1');
   const gal2 = $('.gal2');
   const gal3 = $('.gal3');
-  const form = $('.form');
   const about = $('.about-wrapper');
   const services = $('.service');
+  const form = $('.form');
+  const testimonialTitle = $('.testimonial-title');
+  const testimonials = $('.testimonials');
+  const socialIcon = $('ul.social-cont > li');
+  const footer = $('.tm > h5');
+  const signature = $('.signature > h6');
+
+
+
+
 
   const wpoint = (element, animation, offset = '30') => {
     element.waypoint(() => {
@@ -55,10 +60,10 @@ $(document).ready(() => {
   wpoint(about, 'fadeInUp', '95');
   wpoint(services, 'fadeInUp', '95');
   wpoint(form, 'fadeInUp', '95');
-
- 
-
-
-
+  wpoint(testimonialTitle, 'fadeInUp', '100');
+  wpoint(testimonials, 'fadeInUp', '100');
+  wpoint(socialIcon, 'fadeInUp', '95');
+  wpoint(footer, 'fadeInUp', '95');
+  wpoint(signature, 'fadeInUp', '95');
 });
     
