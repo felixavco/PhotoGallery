@@ -30,3 +30,14 @@ body{
   justify-content: $jc;
   align-items: $ai;
 }
+
+.transition {
+  transition: all 500ms linear;
+  -webkit-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  -moz-transition: all 500ms linear;
+}
+
+.opacity {
+  opacity: 0;
+}

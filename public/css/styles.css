@@ -11,6 +11,15 @@ body {
   overflow-x: hidden;
   background: snow; }
 
+.transition {
+  transition: all 500ms linear;
+  -webkit-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  -moz-transition: all 500ms linear; }
+
+.opacity {
+  opacity: 0; }
+
 .header {
   max-width: 1900px;
   height: 100%;
@@ -146,7 +155,8 @@ body {
       box-shadow: 3px 3px 7px #000; }
 
 .contact-form {
-  max-width: 1900px; }
+  max-width: 1900px;
+  padding-top: 2rem; }
   .contact-form form {
     padding: 1.5rem;
     margin: 1.5rem auto; }
@@ -281,7 +291,7 @@ body {
 header {
   position: absolute; }
   header .menu-btn {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.85);
     position: fixed;
     top: 5%;
     right: 5%;
@@ -289,7 +299,7 @@ header {
     header .menu-btn:hover {
       background: #3e3e3e; }
   header nav {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.85);
     width: 30%;
     position: fixed;
     left: -100%;
