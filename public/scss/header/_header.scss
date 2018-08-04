@@ -64,9 +64,10 @@
       align-items: center;
       justify-content: center;
       font-size: 1.5rem;
-      @include transition(all, 250ms, linear);
+      // @include transition(all, 250ms, linear);
       &:hover{
         transform: scale(1.2);
+        cursor: pointer;
       }
     } 
     

@@ -98,15 +98,12 @@ body {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
-      font-size: 1.5rem;
-      transition: all 250ms linear;
-      -webkit-transition: all 250ms linear;
-      -o-transition: all 250ms linear;
-      -moz-transition: all 250ms linear; }
+      font-size: 1.5rem; }
       .header .social-cont .social-icon:hover {
         -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
-        transform: scale(1.2); }
+        transform: scale(1.2);
+        cursor: pointer; }
 
 @media (max-width: 715px) {
   .header h4 {
@@ -373,7 +370,8 @@ footer {
       transition: all 250ms linear;
       -webkit-transition: all 250ms linear;
       -o-transition: all 250ms linear;
-      -moz-transition: all 250ms linear; }
+      -moz-transition: all 250ms linear;
+      cursor: pointer; }
       footer .social-cont .social-icon:hover {
         -o-transform: scale(1.2);
         -moz-transform: scale(1.2);

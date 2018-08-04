@@ -24,6 +24,7 @@ footer {
       -webkit-transition: all 250ms linear;
       -o-transition: all 250ms linear;
       -moz-transition: all 250ms linear;
+      cursor: pointer;
       &:hover{
         -o-transform: scale(1.2);
         -moz-transform: scale(1.2);
